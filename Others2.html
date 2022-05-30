@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trying</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="modi.css">
+</head>
+<body>
+	<body background="C:\Users\Louis\Pictures\the_egg-wallpaper-1366x768.jpg"></body>
+	<h1 class="text-danger"><marquee>Enregistrement</marquee></h1>
+	<div class="container">
+       <div class="row">
+         <div class="col">
+         <h1 class="text-info"><center>ZOZO EST MON BOOTSRAP</center></h1>
+         <h2><p class="text-warning">
+         My name's Lewis (Louis) Akodji and I've eighteen years old. I live in Benine without my parents. I'm in first class of university at the National School Applied of Economics and Management. There I study the management of compunter. Walaiii the students of my class are wonderfull and very kind mainly the RAl:Regis,André and me Louis.
+        </p></h2>
+        </div>
+        <div class="col">       
+	    <p>
+		<form>
+			<fieldset>
+				<legend class="text-warning">Diploms</legend>
+				<p class="mb-3">
+				<label  for="dip1" class="form-label text-danger">BEPC:</label>
+				<input  type="checkbox" size="100" id="dip1" name="bepc">
+			    </p>
+			    <p class="mb-3">
+				<label for="dip2" class="form-label text-danger">BAC:</label>
+				<input type="checkbox" id="dip2" name="bac">
+			    </p>
+			    <p class="mb-3">
+				<label for="dip3" class="form-label text-danger">CEP:</label>
+				<input type="checkbox" id="dip3" name="cep">
+			    </p>
+			    <p class="mb-3">
+				<label for="dip4" class="form-label text-danger">LICENSE:</label>
+				<input type="checkbox" id="dip4" name="license">
+			    </p>
+			</fieldset>
+			<fieldset>
+				<legend class="text-warning">Leisures</legend>
+				<p class="mb-3">
+				<label for="leis1" class="form-label text-danger">What kind of sport do you pratice?</label>
+				<select name="sports">
+					<option value="football">Football</option>
+					<option value="bascketball">Bascketball</option>
+					<option value="handball">Handball</option>
+					<option value="voleyball">Valeyball</option>
+					<option value="hockey">Hockey</option>
+					<option value="baseball">Baseball</option>
+					<option value="tenis">Tenis</option>
+					<option value="racing">Racing</option>
+				</select>
+			    </p>
+			    <p class="mb-3">
+				<label for="leis2" class="form-label text-danger">What kind of music do you like?</label>
+				<select name="musics">
+                    <option value="zouglou">Zouglou</option>
+                    <option value="coupé-décalé">Coupé-décalé</option>
+                    <option value="reggae">Reggae</option>
+                    <option value="religieux">Religieux</option>
+                    <option value="rap">Rap</option>
+                </select>
+                </p>
+            </fieldset>
+            <p> 
+              <form method="post" action="traitement.php">
+                <fieldset>
+                	<legend class="text-warning">Civil status</legend>
+                	<p class="mb-3">
+                		<label for="prenom1" class="form-label text-danger">First name:</label>
+                		<input type="text" value="first name" class="form-control" id="prenom1" name="prenom">
+                	</p>
+                	<p class="mb-3">
+                		<label for="nom1" class="form-label text-danger">Surname:</label>
+                		<input type="text" value="Surname" class="form-control" id="nom1" name="nom">
+                	</p>
+                	<p class="mb-3">
+                		<label for="profil1" class="form-label text-danger">Profil:</label>
+                		<input type="text" class="form-control" id="profil1
+                		" name="profil">
+                	</p>
+                	<p class="mb-3">
+                		<label for="birth1" class="form-label text-danger">Birth:</label>
+                		<input type="text" value="day/month/year" class="form-control" id="birth1" name="birth">
+                	</p>
+                	<p class="mb-3">
+                		<label for="csituation1" class="form-label text-danger">Conjugal situation</label>
+                		<input type="text" class="form-control" id="csituation1" name="csituation">
+                	</p>
+                	<p class="mb-3">
+                		<label for="nationality1" class="form-label text-danger">Nationality:</label>
+                		<select name="Nationality">
+                			<optgroup label="Africa">
+                				<option value="Beninese">Beninese</option>
+                				<option value="Ivorian">Ivorian</option>
+                				<option value="Ghanian">Ghanian</option>
+                				<option value="Maroccan">Maroccan</option>
+                				<option value="Senegalese">Senegalese</option>
+                				<option value="Togolese">Togolese</option>
+                				<option value="Libanese">Libanese</option>
+                			</optgroup>
+                			<optgroup label="Europ">
+                				<option value="German">German</option>
+                				<option value="French">French</option>
+                				<option value="Portuguese">Portuguese</option>
+                				<option value="Italia">Italia</option>
+                				<option value="England">England</option>
+                			</optgroup>
+                			<optgroup label="Asia">
+                				<option value="Chinese">Chinese</option>
+                				<option value="Indian">Indian</option>
+                				<option value="Japanese">Japanese</option>
+                			</optgroup>
+                		</select>
+                	<p>
+                		<fieldset>
+                		<legend class="text-warning">Sex</legend>
+                		<p class="mb-3">
+                		<label for="sex1" class="form-label text-danger">Masculin:</label>
+                		<input type="checkbox" id="sex1" name="sex">
+                	    </p>
+                	    <p class="mb-3">
+                		<label for="Sex2" class="form-label text-danger">Feminin:</label>
+                		<input type="checkbox" id="sex2" name="sex">
+                	    </p>
+                	    </fieldset>
+                	</p>
+                	<p class="mb-3 text-warning">
+                		<label for="adress1" class="form-label text-danger">Email:</label>
+                		<input type="email class="form-control placeholder="name@domaine.com" " id="adress1" name="email">
+                		We won't share your email with another persons,so don't worry!
+                	</p>
+                	<p class="mb-3">
+                		<label for="adress2" class="form-label text-danger">Cellphone:</label>
+                		<input type="cellphone" value="+229" class="form-control" id="adress2" name="cellphone">
+                	</p>
+                	<p class="mb-3">
+                		<label for="adress3" class="form-label text-danger">BP:</label>
+                		<input type="bp" class="form-control" id="adress3" name="bp">
+                	</p>
+                	<p class="mb-3 text-warning">
+                		<label for="qualif" class="form-label text-danger">Qualification:</label>
+                		<input type="text" class="form-control" id="qualif" name="qualif">
+                		Your high diploma
+                	</p>
+                	<p class="mb-3 text-warning">
+                		<label for="function1" class="form-label text-danger">Function:</label>
+                		<input type="text" class="form-control" id="function1" name="function">
+                		Your occupations for moment
+                	</p>
+                </fieidset>
+                <fieldset>
+                	<legend class="text-warning">Compt acess</legend>
+                	<p class="mb-3">
+                		<label for="adress1" class="form-label text-danger">Cellphone:</label>
+                		<input type="cellphone" value="+229" class="form-control" id="adress1" name="adress">
+                	</p>
+                	<p class="mb-3 text-warning">
+                		<label for="adress2" class="form-label text-danger">Password:</label>
+                		<input type="password" class="form-control" id="adress2" name="adress">
+                		votre mot de pass contiendra des miniscule,majuscule et chiffre
+                	</p>
+                	<p>
+                		<input type="submit" class="bg-success" value="Enrégistrer">
+                </fieldset>
+			</form>
+		</p>
+		</form>
+	  </p>
+	</div>
+   </div>
+</div>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstra
+p.bundle.min.js" integrity="sha384-
+MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+</body>
+</html>
